@@ -1,0 +1,7 @@
+.chan {
+    grid-area: channel;
+    background-color: var(--bg-color-menus);
+    display: inline-block;
+    width: 85vw;
+}
+

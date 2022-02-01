@@ -2,7 +2,22 @@
     grid-area: menu;
     background-color: var(--bg-color-menus);
     display: flex;
+    align-items: center;
     width: 100vw;
+    height: 10vh;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.fas, .fab {
+    color: var(--font-on-and-icons-color);
+}
+
+ul {
+    list-style: none;
 }
 
 .topleft ul li {
@@ -10,6 +25,13 @@
     justify-content: center;
     align-items: space-evenly;
     flex-direction: row;
+    margin: 2vw;
+    width: 15vw;
+}
+
+.topcenter {
+    display: flex;
+    width: 60rem;
 }
 
 .topcenter ul li {

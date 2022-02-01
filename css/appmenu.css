@@ -2,14 +2,43 @@
     grid-area: appmenu;
     background-color: var(--bg-color-menus);
     display: inline-block;
+    width: 15vw;
 }
 
 .leftmenu div ul li {
-    margin-top: 2rem;
-    margin-right: 2rem;
+    margin: 2vw 2vh 2vw 2vh;
     
 }
 
 .leftmenu div ul li a i {
-    margin-right: 2rem;
+    color: #909090;
+    margin-right: 2vw;
+}
+
+.leftmenu hr {
+    color: #313131;
+}
+
+.leftmenu legend, .leftmenu p {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.sub legend, .more legend, .links p {
+    color: #909090;
+    font-weight: 900;
+    margin-top: 2vh;
+    margin-left: 2vw;    
+}
+
+.leftmenu .links ul{
+    margin-top: 2vh;
+    margin-left: 2vw; 
+}
+
+.leftmenu .links ul li {
+    display: ;
+}
+
+.leftmenu .links ul li a {
+    margin-top: 2vh;
 }
