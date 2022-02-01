@@ -1,0 +1,10 @@
+:root {
+    font-size: 16px;
+    /* variables */
+    --bg-color-home: #0F0F0F;
+    --bg-color-menus: #212121;
+    --yt-logo-color: #CC0200;
+    --font-on-and-icons-color: #FFFFFF;
+    --font-off: #AAAAAA;
+    --font-family: 'Roboto', sans-serif;
+}
