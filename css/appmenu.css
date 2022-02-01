@@ -1,0 +1,15 @@
+.leftmenu {
+    grid-area: appmenu;
+    background-color: var(--bg-color-menus);
+    display: inline-block;
+}
+
+.leftmenu div ul li {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.leftmenu div ul li a i {
+    margin-right: 2rem;
+}

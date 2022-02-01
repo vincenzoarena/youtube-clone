@@ -2,6 +2,7 @@
     grid-area: menu;
     background-color: var(--bg-color-menus);
     display: flex;
+    width: 100vw;
 }
 
 .topleft ul li {
@@ -16,6 +17,16 @@
     justify-content: center;
     align-items: space-evenly;
     flex-direction: row;
+    width: 45vw;
+}
+
+.search {
+    background-color: #313131;
+}
+
+.michro {
+    background-color: var(--bg-color-home);
+    border-radius: 50%;
 }
 
 .topright ul li {
@@ -28,4 +39,8 @@
 input[type="search"] {
     background-color: var(--bg-color-home);
     border: #313131;
+    width: 35vw;
+}
+.topleft ul li a {
+    font-weight: 900;
 }
