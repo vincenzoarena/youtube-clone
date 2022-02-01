@@ -1,4 +1,5 @@
 @import url(./var.css);
+@import url(./top.css);
 
 * {
     margin: 0;
@@ -11,4 +12,27 @@
 body {
     width: 100vw;
     height: 100vh;
+    font-family: var(--font-family);
+    background-color: var(--bg-color-home);
+}
+
+a:any-link {
+    text-decoration: none;
+    color: var(--font-on-and-icons-color);
+}
+
+div {
+    border: 1px darkblue solid;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.fas, .fab {
+    color: var(--font-on-and-icons-color);
+}
+
+ul {
+    list-style: none;
 }

@@ -1,0 +1,31 @@
+.top {
+    grid-area: menu;
+    background-color: var(--bg-color-menus);
+    display: flex;
+}
+
+.topleft ul li {
+    display: inline;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: row;
+}
+
+.topcenter ul li {
+    display: inline;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: row;
+}
+
+.topright ul li {
+    display: inline;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: row;
+}
+
+input[type="search"] {
+    background-color: var(--bg-color-home);
+    border: #313131;
+}
