@@ -20,6 +20,10 @@ ul {
     list-style: none;
 }
 
+.top .topleft, .top .topcenter, .top .topright {
+    height: 8vh;
+}
+
 .topleft ul li {
     display: inline;
     justify-content: center;
