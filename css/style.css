@@ -16,9 +16,27 @@ body {
     height: 100vh;
     font-family: var(--font-family);
     background-color: var(--bg-color-home);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 4fr 4fr;
+    grid-template-areas: 
+    "container container"
+    "sidebar content";
 }
 
 .container {
+    grid-area: container;
+}
+
+.biggerbox {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+/* .container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -27,7 +45,7 @@ body {
       "appmenu chan chan"
       "appmenu chan chan"
       "appmenu chan chan";
-  }
+  } */
 
 a:any-link {
     text-decoration: none;
