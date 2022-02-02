@@ -13,12 +13,12 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     font-family: var(--font-family);
     background-color: var(--bg-color-home);
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 4fr 4fr;
+    grid-template-rows: 2fr 2fr;
     grid-template-areas: 
     "container container"
     "sidebar content";
@@ -54,4 +54,8 @@ a:any-link {
 
 div {
     border: 1px darkblue solid;
+}
+.content {
+    background-color: green;
+
 }
