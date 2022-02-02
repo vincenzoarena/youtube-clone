@@ -35,6 +35,7 @@ ul {
 
 .topcenter {
     display: flex;
+    justify-content: space-evenly;
     width: 60rem;
 }
 
@@ -48,18 +49,31 @@ ul {
 
 .search {
     background-color: #313131;
+    margin-left: 8vw;
+    padding-right: 2vw;
 }
 
-.michro {
+input {
+    outline: none;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+button .fa-michrophone{
     background-color: var(--bg-color-home);
     border-radius: 50%;
+    width: 5vw;
+    margin-right: 2vw;
 }
 
 .topright ul li {
     display: inline;
     justify-content: center;
     align-items: space-evenly;
-    flex-direction: row;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    width: 60vw;
 }
 
 input[type="search"] {
@@ -69,4 +83,8 @@ input[type="search"] {
 }
 .topleft ul li a {
     font-weight: 900;
+}
+
+.topright i {
+    display: flex;
 }
