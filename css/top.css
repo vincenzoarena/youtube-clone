@@ -5,6 +5,7 @@
     align-items: center;
     width: 100vw;
     height: 10vh;
+    border: 2px red;
 }
 
 button {
@@ -33,17 +34,14 @@ ul {
     width: 15vw;
 }
 
-.topcenter {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60rem;
-}
 
-.topcenter ul li {
-    display: inline;
+.topcenter  i {
+    display: flex;
     justify-content: center;
     align-items: space-evenly;
     flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px red dashed;
     width: 45vw;
 }
 
@@ -55,7 +53,7 @@ ul {
 
 input {
     outline: none;
-    height: 5vh;
+    height: 3vh;
     margin-top: 1vh;
     margin-left: 1vw;
 }
@@ -67,13 +65,13 @@ button .fa-michrophone{
     margin-right: 2vw;
 }
 
-.topright ul li {
-    display: inline;
+.topright ul {
+    display: flex;
     justify-content: center;
     align-items: space-evenly;
     /* flex-direction: row; */
     /* flex-wrap: nowrap; */
-    width: 60vw;
+    width: 20vw;
 }
 
 input[type="search"] {
